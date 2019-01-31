@@ -1,0 +1,81 @@
+body
+{
+  padding: 100px;
+  margin: auto;
+  display: block;
+  justify-content: center;
+
+}
+
+.container 
+{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  justify-content: center;
+  
+}
+
+.col-
+{
+  border: 1px solid white;
+}
+
+.bg-black
+{
+  background-color: black;
+ 
+}
+.bg-yellows
+{
+  background-color: gold;
+}
+.bg-orange
+{
+  background-color: orange;
+}
+
+
+@media (min-width: 350px) { 
+  .container {
+    width: 400px;  
+}
+  [class*="col-"] {
+  height: 30px;
+  }
+}
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  [class*="col-"] {
+    height: 40px;
+  }
+}
+
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px; 
+  }
+  [class*="col-"] {
+    height: 50px;
+  }
+}
+
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; 
+  }
+  [class*="col-"] {
+    height: 60px;
+  }
+}
+
+}
