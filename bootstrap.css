@@ -1,21 +1,13 @@
-body
+.container:
 {
-  padding: 100px;
-  margin: auto;
-  display: block;
-  justify-content: center;
-
+  max-width: 100%;
+  height: auto;
 }
-
-.container 
+ 
+.col-
 {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  justify-content: center;
-  
+  border: 1px solid white;
+  height: 40px;
 }
 
 .col-
